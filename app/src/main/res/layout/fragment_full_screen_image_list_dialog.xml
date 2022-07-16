@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".ui.dialog.FullScreenImage"
+    tools:ignore="ContentDescription,ImageContrastCheck">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imv_picture"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="1dp"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="1dp"
+        android:src="@drawable/ic_arrow"
+        android:tint="@color/black" />
+
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="tv_medium" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@android:font</item>
+    </style>
+
+    <style name="tv_small" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/skyb</item>
+    </style>
+
+    <style name="tv_large" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_25ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/skyb</item>
+    </style>
+
+    <style name="tv_xlarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_30ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/skyb</item>
+    </style>
+
+    <style name="tv_title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/skyb</item>
+    </style>
+
+    <style name="tv_subtitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/skyb</item>
+    </style>
+</resources>
